@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="100%" height="100%">
+  <defs>
+    <style>
+      .olive-gray { fill: #4F5245; }
+      .gold-accent { fill: #C39F56; }
+      .text-font { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- GRADUATION CAP -->
+  <g>
+    <!-- Cap Diamond Top -->
+    <polygon points="400,20 495,43 400,66 305,43" class="olive-gray"/>
+    
+    <!-- Cap Skullcap/Base -->
+    <path d="M 342,54 L 342,80 C 342,95 458,95 458,80 L 458,54 C 440,63 418,67 400,67 C 382,67 360,63 342,54 Z" class="olive-gray"/>
+    
+    <!-- Gold Tassel String and Button -->
+    <circle cx="400" cy="43" r="3.5" class="gold-accent"/>
+    <path d="M 400,43 Q 470,48 474,70 L 477,70 Q 473,46 400,41 Z" class="gold-accent"/>
+    
+    <!-- Gold Tassel Band and Fringe -->
+    <rect x="471" y="70" width="8" height="3" rx="1" class="gold-accent"/>
+    <polygon points="471,73 479,73 481,95 469,95" class="gold-accent"/>
+  </g>
+
+  <!-- BRIDGE STRUCTURE -->
+  <g class="olive-gray">
+    <!-- Main Deck Base Horizontal Bar -->
+    <rect x="25" y="158" width="750" height="15" rx="3"/>
+
+    <!-- Left Support Tower -->
+    <path d="M 203,20 L 221,20 L 225,158 L 229,158 L 229,195 C 229,199 225,202 220,202 L 204,202 C 199,202 195,199 195,195 L 195,158 L 199,158 Z"/>
+    <path d="M 200,20 L 212,5 L 224,20 Z"/>
+
+    <!-- Right Support Tower -->
+    <path d="M 577,20 L 595,20 L 599,158 L 603,158 L 603,195 C 603,199 599,202 594,202 L 578,202 C 573,202 569,199 569,195 L 569,158 L 573,158 Z"/>
+    <path d="M 574,20 L 586,5 L 598,20 Z"/>
+
+    <!-- Main Suspension Cables -->
+    <path d="M 25,148 Q 120,146 212,25 Q 304,146 400,148" fill="none" stroke="#4F5245" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 400,148 Q 496,146 586,25 Q 680,146 775,148" fill="none" stroke="#4F5245" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Vertical Hangers -->
+    <rect x="48" y="146" width="5" height="13"/>
+    <rect x="75" y="139" width="5" height="20"/>
+    <rect x="103" y="127" width="5" height="32"/>
+    <rect x="131" y="110" width="5" height="49"/>
+    <rect x="159" y="87" width="5" height="72"/>
+    <rect x="187" y="55" width="5" height="104"/>
+    <rect x="237" y="55" width="5" height="104"/>
+    <rect x="265" y="87" width="5" height="72"/>
+    <rect x="293" y="110" width="5" height="49"/>
+    <rect x="321" y="127" width="5" height="32"/>
+    <rect x="349" y="139" width="5" height="20"/>
+    <rect x="377" y="146" width="5" height="13"/>
+    <rect x="418" y="146" width="5" height="13"/>
+    <rect x="446" y="139" width="5" height="20"/>
+    <rect x="474" y="127" width="5" height="32"/>
+    <rect x="502" y="110" width="5" height="49"/>
+    <rect x="530" y="87" width="5" height="72"/>
+    <rect x="558" y="55" width="5" height="104"/>
+    <rect x="608" y="55" width="5" height="104"/>
+    <rect x="636" y="87" width="5" height="72"/>
+    <rect x="664" y="110" width="5" height="49"/>
+    <rect x="692" y="127" width="5" height="32"/>
+    <rect x="720" y="139" width="5" height="20"/>
+    <rect x="747" y="146" width="5" height="13"/>
+  </g>
+
+  <!-- TEXT "Bridgeway" -->
+  <text x="20" y="330" class="olive-gray text-font" font-size="124" letter-spacing="-1">Bridgeway</text>
+
+  <!-- UNDERLINE (Spans the entire word "Bridgeway") -->
+  <rect x="20" y="348" width="750" height="14" class="olive-gray" rx="1"/>
+</svg>

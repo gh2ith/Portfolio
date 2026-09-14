@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Off-White to Muted Olive Gradient -->
+    <linearGradient id="cornerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8E6DC" />
+      <stop offset="50%" stop-color="#D4D5C9" />
+      <stop offset="100%" stop-color="#5C5D53" />
+    </linearGradient>
+
+    <!-- Warm Gold Backlight Glow -->
+    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#D6B36A" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Smooth Curved Corner Element (Transparent Background) -->
+  <path 
+    d="M 30,170 
+       C 30,105 35,60 75,35 
+       C 115,35 160,30 175,30 
+       C 150,48 105,52 78,78 
+       C 52,105 48,150 30,170 Z" 
+    fill="url(#cornerGradient)" 
+    filter="url(#goldGlow)" 
+  />
+</svg>
