@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Idiqlat:wght@200;300;400&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="portfolio.css">
 
@@ -75,7 +76,8 @@
 
     <img src="me-image.png" class="imgg" alt="Profile Picture">
 
-    <section class="band band-top" id="hero">
+    <section class="band band-top" id="hero" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
         <!-- rest of hero content -->
 
         <h3 class="oneh3">
@@ -92,7 +94,8 @@
   Amourah</span></pre>
         </h1>
 
-        <div class="hero-statement">
+        <div class="hero-statement" data-aos="fade-up"
+     data-aos-duration="500">
             <span>BUILDING</span>
             <span>DIGITAL</span>
             <span>EXPERIENCES.</span>
@@ -105,14 +108,17 @@
     </section>
 
     <section class="band band-mid2" id="about">
-                <h1 class="h1style">About Me</h1>
-        <p class="classic-text">
+                <h1 class="h1style" data-aos="fade-up"
+     data-aos-duration="500">About Me</h1>
+        <p class="classic-text"data-aos="fade-up"
+     data-aos-duration="500">
             I'm a software developer focused on building practical, reliable web applications and backend solutions.
             I work primarily with C#, .NET, SQL, and modern web technologies, with a strong interest in clean code,
             problem-solving, and continuous learning. I'm passionate about turning ideas into efficient, real-world solutions.
         </p>
 
-        <p class="classic-text span3">Irbid, Jordan</p>
+        <p class="classic-text span3" data-aos="fade-up"
+     data-aos-duration="500">Irbid, Jordan</p>
                 <br>
         <br>
 
@@ -122,9 +128,11 @@
     <section class="band band-mid">
 
         <section id="experience">
-            <h1 class="h1style">Experience</h1>
+            <h1 class="h1style" data-aos="fade-up"
+     data-aos-duration="500">Experience</h1>
 
-            <div class="experience-item">
+            <div class="experience-item" data-aos="fade-up"
+     data-aos-duration="500">
                 <div class="vertical-line"></div>
 
                 <h6 class="classic-text2">
@@ -150,12 +158,14 @@
             <br>
         </section>
 
-        <section id="qualifications">
-            <h1 class="h1style">Qualifications</h1>
+        <section id="qualifications" data-aos="fade-up"
+     data-aos-duration="500">
+            <h1 class="h1style" >Qualifications</h1>
             <hr class="hr">
             <br>
             <br>
-            <div class="containerr">
+            <div class="containerr" data-aos="fade-up"
+     data-aos-duration="1000">
                 <h6 class="h66">Bachelor's in Computer Science<span class="span20"> ............................................................................................................</span><span class="span3">  [ 2026 ]</span></h6>
                 <br>
                 <br>
@@ -171,13 +181,15 @@
             <hr class="main-hr">
         </section>
 
-<section id="skills">
+<section id="skills" data-aos="fade-up"
+     data-aos-duration="800">
 
     <h1 class="h1style">Skills</h1>
 
     <br>
 
-    <div class="flex5">
+    <div class="flex5" data-aos="fade-up"
+     data-aos-duration="1000">
                 <div class="box0">
             <h3 class="oneh3">Technical Skills</h3>
             <br>
@@ -219,12 +231,14 @@
     <hr class="main-hr">
 </section>
 
-        <section id="projects">
+        <section id="projects" data-aos="fade-up"
+     data-aos-duration="500">
              <h1 class="h1style">Projects</h1>
 
             <br>
 
-            <div class="flex5">
+            <div class="flex5" data-aos="fade-up"
+     data-aos-duration="1000">
                 <div class="box">
 
                     <img src="gemini-svg.svg" class="img-fluid" alt="Bridgeway">
@@ -286,11 +300,13 @@
         <hr class="main-hr">
         <br>
 
-        <section id="references">
+        <section id="references" data-aos="fade-up"
+     data-aos-duration="500">
                  <h1 class="h1stylee">References</h1>
             <br>
             <br>
-            <div class="flex5">
+            <div class="flex5"data-aos="fade-up"
+     data-aos-duration="1000">
                 <div class="box2">
 
                     <h3 class="oneh3">Anfal Dherat</h3>
@@ -412,6 +428,10 @@
             </div>
         </div>
     </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+    </script>
 
 </body>
 
