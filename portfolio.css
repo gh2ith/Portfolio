@@ -455,6 +455,7 @@ margin: 30px auto 0;
 .logo{
     width: 20px;
     height: 20px;
+    
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -1038,3 +1039,23 @@ justify-content: space-around;
 .my-text{
     color: #d4d5c9;
 }
+
+
+.divvv {
+border: 1px solid rgba(226, 190, 105, 0.65);
+border-radius: 8px;
+padding: 6px 16px !important;
+color: #f1d58a !important;
+text-decoration: none;
+background-color: #59503c;
+font-size: 20px;}
+
+
+.divvv:hover { 
+    background-color: rgba(138, 111, 74, 1);
+    color: #fff !important;
+    transition: all 0.2s ease;
+    transform: translateY(-5px);
+}
+
+
