@@ -78,7 +78,8 @@ Through this project, I practiced:
 * Improving UI design and visual consistency
 
 ## 🔗 Links
-
+LIVE DEMO 
+https://gh2ith.github.io/Portfolio/
 **GitHub:**
 https://github.com/gh2ith
 
