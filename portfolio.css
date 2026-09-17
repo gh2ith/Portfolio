@@ -279,7 +279,7 @@ margin: 30px auto 0;
     box-shadow: 0 4px 6px rgba(247, 244, 244, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
-    border-left: 4px solid #d6b36a;
+    border-left: 4px solid #c9a876;
     color: #d4d5c9;
 
     transition: all 0.2s ease;
@@ -424,7 +424,7 @@ margin: 30px auto 0;
     min-height: 200px;
     padding: 15px;
     
-    border-left: 4px solid #d6b36a;
+    border-left: 4px solid #c9a876;
     border-radius: 12px;
 
     color: #d4d5c9;
@@ -1044,7 +1044,7 @@ padding: 0 40px 40px 40px;
     border-radius: 12px;
     color: #d4d5c9;
     transition: all 0.2s ease;
-    border-left: 4px solid #d6b36a;
+    border-left: 4px solid #c9a876;
 
 }
 
